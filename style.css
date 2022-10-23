@@ -72,7 +72,7 @@ body {
 }
 #text_5{
 	color: 646974;
-	font-size: 16px;
+	font-size: 12px;
 	padding-top: 28;
 }
 #image_1{
@@ -81,23 +81,8 @@ body {
 	padding-left: 95px;
 	padding-top: 32px;
 }
-#text_button{
-	width: 180px;
-  height: 45px;
-  background: #FEC830;
-  border-radius: 17px;
-  margin-left: 5;
-  margin-top: 35;
-  color: black;
-  padding-top: 2.25px;
-  text-decoration: none;
 
 
-}
-#text_burron_1{
-	padding: 4.5px;
-	text-decoration: none;
-}
 #block_2_text_1{
 	margin-left: 30px;
 	text-align: center;
@@ -191,3 +176,32 @@ body {
 	margin-left: 455px;
 	padding-top: 2px;
 }
+
+
+.button{
+	display: inline-block;
+    padding: 10px, 15px;
+    color: black;
+    background-color: FEC830;
+    border: 0px;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+	margin-top: 20px;
+	font-family: Montserrat;
+}
+
+.button:hover{
+	opacity: .8;
+    cursor: pointer;
+}
+
+.button:focus{
+	opacity: .8;
+    outline: none;
+}
+
+
+
+
