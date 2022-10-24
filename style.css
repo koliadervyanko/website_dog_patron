@@ -182,7 +182,7 @@ body {
 	display: inline-block;
     padding: 10px, 15px;
     color: black;
-    background-color: FEC830;
+    background-color: #FEC830;
     border: 0px;
     border-radius: 10px;
     width: 150px;
@@ -193,13 +193,17 @@ body {
 }
 
 .button:hover{
-	opacity: .8;
+	background-color: #ffc014;
     cursor: pointer;
 }
 
 .button:focus{
 	opacity: .8;
     outline: none;
+}
+
+.button:active{
+	background-color: #ffb92c;
 }
 
 
